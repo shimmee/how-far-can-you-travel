@@ -1,0 +1,25 @@
+
+/* https://github.com/seanangio/in_household/blob/master/shiny/styles.css */
+div.outer {
+  position: fixed;
+  top: 53px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* https://stackoverflow.com/questions/50305668/change-background-colour-of-navbarpage-menubar-in-r-shiny */
+.navbar-default {
+    background-color: #D9534F !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #F2E836 !important;
+    background-color: #BF2F2A !important;
+}
+
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+}
